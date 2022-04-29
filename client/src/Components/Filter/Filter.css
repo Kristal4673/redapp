@@ -1,0 +1,16 @@
+.home-filter{
+    display: grid;
+    flex-direction: column;
+    width: 400px;
+}
+
+.filter-container{
+    display: flex;
+    justify-content: start;
+    width: 250px;
+}
+
+.filter-container input, label{
+    display: block;
+    width: 400px;
+}

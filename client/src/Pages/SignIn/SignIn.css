@@ -1,0 +1,30 @@
+.signIn-login{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 40px;
+    border: 1px solid black;
+    margin: 1%;
+    width: 45vw;
+    text-align: left;
+    border-radius: 4px
+}
+
+.signIn-signup{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 40px;
+    border: 1px solid black;
+    margin: 1%;
+    width: 45vw;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.signin-ctn{
+    display: flex;
+    justify-content: center;
+}
+
+
