@@ -1,10 +1,14 @@
 import "./Book.css"; 
+import Header from "../../Components/Header/Header";
 
 import React from 'react'
 
 const bookNow  = () => {
   return (
-    <div>Book Now </div>
+    <div>
+      <Header />
+      Book Now 
+    </div>
   )
 }
 

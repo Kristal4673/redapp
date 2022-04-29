@@ -1,19 +1,21 @@
 
 // import logo from './IMG/redlogo.png';
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import Book from './Pages/Book/Book';
 import Header from "./Components/Header/Header";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <div className="App">
+    <Routes>
+      
         {/* <Routes> */}
-          <Header />
-      </div>
-    </Router>
+        <Route path="/book" element={<Book />}/>
+        <Route path="/" element={<Home />} />
+    </Routes>
+    </div>
   );
 }
 
