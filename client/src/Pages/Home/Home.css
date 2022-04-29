@@ -1,0 +1,10 @@
+.home-filter-ctn{
+    position: absolute;
+    left: 0;
+    width: 50%;
+}
+
+.home-booking{
+    display: flex;
+    justify-content: end;
+}
